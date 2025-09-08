@@ -31,6 +31,7 @@ p {
 
 /* Styling social media links */
 #social {
+    text-align: center; /* Center the icons horizontally */
     margin-top: 25px;
     padding-top: 15px;
     border-top: 1px solid #eee;
@@ -42,12 +43,14 @@ p {
 
 #social a {
     text-decoration: none;
-    color: #007bff; /* Standard link blue */
-    font-weight: bold;
+    color: #333; /* Default icon color */
+    margin: 0 10px; /* Space between icons */
+    font-size: 1.8em; /* Icon size */
+    transition: color 0.3s ease; /* Smooth color change on hover */
 }
 
 #social a:hover {
-    text-decoration: underline;
+    color: #005a9c; /* Change color on hover to match heading blue */
 }
 
 /* Footer styling */
