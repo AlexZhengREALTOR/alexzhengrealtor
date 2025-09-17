@@ -53,6 +53,13 @@ p {
     color: #005a9c; /* Change color on hover to match heading blue */
 }
 
+#social svg {
+    width: 36px;  /* Set a fixed width */
+    height: 36px; /* Set a fixed height */
+    fill: #333;   /* Set the default icon color */
+    transition: fill 0.3s ease; /* Smooth color change on hover */
+}
+
 /* Footer styling */
 #footer {
     text-align: center;
